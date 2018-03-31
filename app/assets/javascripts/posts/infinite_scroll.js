@@ -10,7 +10,6 @@ $(document).on('turbolinks:load',function(){
                     isLoading = false
                 }).fail(function(){
                     isLoading =false
-
                 });
             }    
         });
