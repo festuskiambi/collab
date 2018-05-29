@@ -39,6 +39,9 @@ gem 'devise'
 gem 'bootstrap_form'
 gem 'will_paginate', '~> 3.1.0'
 
+gem "AfricasTalking", :git => "https://github.com/AfricasTalkingLtd/africastalking-ruby.git"
+
+
 
 
 group :development, :test do

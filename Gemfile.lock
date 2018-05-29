@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/AfricasTalkingLtd/africastalking-ruby.git
+  revision: 9f7a454edafc701f859c45d60a41527ac096ab6b
+  specs:
+    AfricasTalking (2.0.0.pre.alpha)
+      httparty (= 0.16.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -89,6 +96,8 @@ GEM
     globalid (0.4.1)
       activesupport (>= 4.2.0)
     headless (2.3.1)
+    httparty (0.16.1)
+      multi_xml (>= 0.5.2)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
     jbuilder (2.7.0)
@@ -112,6 +121,7 @@ GEM
     mini_portile2 (2.3.0)
     minitest (5.11.3)
     multi_json (1.13.1)
+    multi_xml (0.6.0)
     nio4r (2.3.0)
     nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
@@ -229,6 +239,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  AfricasTalking!
   bootstrap-sass (~> 3.3.6)
   bootstrap_form
   byebug

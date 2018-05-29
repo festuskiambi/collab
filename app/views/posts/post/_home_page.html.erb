@@ -1,4 +1,4 @@
-<div class="col-sm-3 single-post-card" id=<%= post_path(post.id) %>>
+<div class=" single-post-card col-sm-3 " id=<%= post_path(post.id) %>>
   <div class="card">
     <div class="card-block">
       <h4 class="post-text">
@@ -7,6 +7,7 @@
       <div class="post-content">
         <div class="posted-by">Posted by <%= post.user.name %></div>
         <h3><%= post.title %></h3> 
+        <%post.send_sms%>
         <p><%= post.content %></p>
         <%= link_to "I'm interested", post_path(post.id), class: 'interested' %>
       </div>
